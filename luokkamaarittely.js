@@ -107,8 +107,8 @@ const urheilija3 = new Urheilija(
   "1964-01-22",
   "https://example.com/eerom.jpg",
   80,
-  "Näppäimistönrämpytys",
-  ["COBOLIN EM-pronssi 1993", "Java MM-kulta 2000"]
+  "Spagettikoodari",
+  ["COBOLIN EM-pronssi 1993", "Assembly MM-kulta 2000"]
 );
 
 console.log(
