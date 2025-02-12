@@ -114,21 +114,21 @@ const urheilija3 = new Urheilija(
 console.log(
   `${
     urheilija1.kutsumanimi
-  } on ${urheilija1.getIka()} vuotta vanha ja hänen lajinsa on ${
+  } on ${urheilija1.getIka()} vuotta vanha, hänen lajinsa on ${
     urheilija1.laji
-  }.`
+  } ja saavutukset: ${urheilija1.saavutukset}.`
 );
 console.log(
   `${
     urheilija2.kutsumanimi
-  } on ${urheilija2.getIka()} vuotta vanha ja hänen lajinsa on ${
+  } on ${urheilija2.getIka()} vuotta vanha, hänen lajinsa on ${
     urheilija2.laji
-  }.`
+  } ja saavutukset: ${urheilija2.saavutukset}.`
 );
 console.log(
   `${
     urheilija3.kutsumanimi
-  } on ${urheilija3.getIka()} vuotta vanha ja hänen lajinsa on ${
+  } on ${urheilija3.getIka()} vuotta vanha, hänen lajinsa on ${
     urheilija3.laji
-  }.`
+  } ja saavutukset: ${urheilija3.saavutukset}.`
 );
