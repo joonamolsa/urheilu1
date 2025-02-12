@@ -49,8 +49,6 @@ class Urheilija extends Henkilo {
   set omapaino(paino) {
     if (typeof paino === "number" && paino > 0) {
       this._omapaino = paino;
-    } else {
-      throw new Error("Virheellinen paino");
     }
   }
 
@@ -60,8 +58,6 @@ class Urheilija extends Henkilo {
   set laji(laji) {
     if (typeof laji === "string" && laji.length > 0) {
       this._laji = laji;
-    } else {
-      throw new Error("Virheellinen laji");
     }
   }
 
@@ -71,8 +67,6 @@ class Urheilija extends Henkilo {
   set saavutukset(saavutukset) {
     if (Array.isArray(saavutukset)) {
       this._saavutukset = saavutukset;
-    } else {
-      throw new Error("Saavutusten tulee olla taulukko");
     }
   }
 }
